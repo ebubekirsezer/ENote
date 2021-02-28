@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -16,23 +16,55 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="c2s-9U-xgi">
-                                <rect key="frame" x="62" y="203" width="240" height="128"/>
-                                <color key="backgroundColor" systemColor="systemRedColor"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dHC-76-rSC">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="200"/>
+                                <color key="backgroundColor" red="0.15686274509803921" green="0.75294117647058822" blue="0.94509803921568625" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="G9v-v6-tVj"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TcK-Rl-Egb">
+                                <rect key="frame" x="0.0" y="180" width="414" height="682"/>
+                                <color key="backgroundColor" red="0.94117647058823528" green="0.94117647058823528" blue="0.94117647058823528" alpha="1" colorSpace="calibratedRGB"/>
                                 <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="rightCorner" value="YES"/>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="topCorners" value="YES"/>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="bottomCorners" value="NO"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="e7z-Af-kG2">
+                                <rect key="frame" x="169.66666666666666" y="142" width="75" height="75"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="winkingface" translatesAutoresizingMaskIntoConstraints="NO" id="vQA-n8-KJa">
+                                        <rect key="frame" x="7.3333333333333428" y="7.6666666666666572" width="60" height="60"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="60" id="D0c-Wd-avj"/>
+                                            <constraint firstAttribute="height" constant="60" id="Jwv-vX-q04"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="vQA-n8-KJa" firstAttribute="centerX" secondItem="e7z-Af-kG2" secondAttribute="centerX" id="0tf-eq-Fd1"/>
+                                    <constraint firstAttribute="height" constant="75" id="2YH-ax-hUV"/>
+                                    <constraint firstItem="vQA-n8-KJa" firstAttribute="centerY" secondItem="e7z-Af-kG2" secondAttribute="centerY" id="OgT-or-wrI"/>
+                                    <constraint firstAttribute="width" constant="75" id="zPF-zB-D7J"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="allCorners" value="YES"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vLe-Vg-Lo6"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="c2s-9U-xgi" firstAttribute="top" secondItem="vLe-Vg-Lo6" secondAttribute="top" constant="159" id="3on-08-b9m"/>
-                            <constraint firstItem="c2s-9U-xgi" firstAttribute="leading" secondItem="vLe-Vg-Lo6" secondAttribute="leading" constant="62" id="bgp-Yf-thr"/>
-                            <constraint firstItem="vLe-Vg-Lo6" firstAttribute="bottom" secondItem="c2s-9U-xgi" secondAttribute="bottom" constant="531" id="k3n-Qp-DX4"/>
-                            <constraint firstItem="vLe-Vg-Lo6" firstAttribute="trailing" secondItem="c2s-9U-xgi" secondAttribute="trailing" constant="112" id="yYA-hy-8ap"/>
+                            <constraint firstItem="e7z-Af-kG2" firstAttribute="centerX" secondItem="vLe-Vg-Lo6" secondAttribute="centerX" id="Har-F4-Wev"/>
+                            <constraint firstItem="TcK-Rl-Egb" firstAttribute="top" secondItem="e7z-Af-kG2" secondAttribute="bottom" constant="-37" id="VCc-B7-ur1"/>
+                            <constraint firstItem="TcK-Rl-Egb" firstAttribute="top" secondItem="dHC-76-rSC" secondAttribute="bottom" constant="-20" id="VMC-vl-TI9"/>
+                            <constraint firstItem="vLe-Vg-Lo6" firstAttribute="bottom" secondItem="TcK-Rl-Egb" secondAttribute="bottom" id="WTv-cg-9Hx"/>
+                            <constraint firstItem="dHC-76-rSC" firstAttribute="leading" secondItem="vLe-Vg-Lo6" secondAttribute="leading" id="ZEf-fG-qcj"/>
+                            <constraint firstItem="dHC-76-rSC" firstAttribute="top" secondItem="iW9-2X-nim" secondAttribute="top" id="eCP-RT-NAc"/>
+                            <constraint firstItem="vLe-Vg-Lo6" firstAttribute="trailing" secondItem="dHC-76-rSC" secondAttribute="trailing" id="rdb-8c-P7m"/>
+                            <constraint firstItem="TcK-Rl-Egb" firstAttribute="leading" secondItem="vLe-Vg-Lo6" secondAttribute="leading" id="s5o-kU-Cue"/>
+                            <constraint firstItem="vLe-Vg-Lo6" firstAttribute="trailing" secondItem="TcK-Rl-Egb" secondAttribute="trailing" id="yGt-cu-ivg"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -42,11 +74,9 @@
         </scene>
     </scenes>
     <resources>
+        <image name="winkingface" width="32" height="32"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="systemRedColor">
-            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

@@ -39,15 +39,19 @@ extension UIView {
     
     private func round(corner: Corners){
         var corners: CACornerMask
+        var radius: CGFloat = 15
         switch corner {
         case .top:
+            radius = 30
             corners = [.layerMinXMinYCorner, .layerMaxXMinYCorner]
         case .bottom:
+            radius = 30
             corners = [.layerMinXMaxYCorner, .layerMaxXMaxYCorner]
         case .all:
+            radius = 15
             corners = [.layerMaxXMaxYCorner, .layerMaxXMinYCorner, .layerMinXMaxYCorner, .layerMinXMinYCorner]
         }
-        self.layer.cornerRadius = 15
+        self.layer.cornerRadius = radius
         self.layer.maskedCorners = corners
     }
 }
