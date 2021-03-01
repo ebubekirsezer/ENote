@@ -16,6 +16,7 @@
 		B852B1A925EBDF800019159F /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B852B1A825EBDF800019159F /* Login.storyboard */; };
 		B852B1AD25EBE19F0019159F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B852B1AC25EBE19F0019159F /* LoginViewController.swift */; };
 		B852B1B325EBE5DE0019159F /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B852B1B225EBE5DE0019159F /* UIView+Extension.swift */; };
+		B8C5FC8F25ED864F00CB934C /* BaseColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C5FC8E25ED864F00CB934C /* BaseColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		B852B1A825EBDF800019159F /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		B852B1AC25EBE19F0019159F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		B852B1B225EBE5DE0019159F /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		B8C5FC8E25ED864F00CB934C /* BaseColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 		B833E6BD25D70F1400A26D0A /* ENote */ = {
 			isa = PBXGroup;
 			children = (
+				B8C5FC8D25ED863600CB934C /* Main */,
 				B852B1A525EBDEAD0019159F /* Applications */,
 				B852B1A425EBDE740019159F /* Storyboards */,
 				B852B1B125EBE5B20019159F /* Controllers */,
@@ -114,6 +117,14 @@
 				B833E6C225D70F1400A26D0A /* ViewController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B8C5FC8D25ED863600CB934C /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				B8C5FC8E25ED864F00CB934C /* BaseColor.swift */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,6 +198,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8C5FC8F25ED864F00CB934C /* BaseColor.swift in Sources */,
 				B852B1AD25EBE19F0019159F /* LoginViewController.swift in Sources */,
 				B833E6C325D70F1400A26D0A /* ViewController.swift in Sources */,
 				B833E6BF25D70F1400A26D0A /* AppDelegate.swift in Sources */,
