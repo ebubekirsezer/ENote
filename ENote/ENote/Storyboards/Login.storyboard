@@ -106,6 +106,7 @@
                                                                                                 <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                                             </userDefinedRuntimeAttribute>
                                                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="allCorners" value="NO"/>
+                                                                                            <userDefinedRuntimeAttribute type="boolean" keyPath="isBorder" value="NO"/>
                                                                                         </userDefinedRuntimeAttributes>
                                                                                     </textField>
                                                                                 </subviews>
@@ -113,7 +114,7 @@
                                                                                 <edgeInsets key="layoutMargins" top="8" left="12" bottom="8" right="0.0"/>
                                                                                 <userDefinedRuntimeAttributes>
                                                                                     <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
-                                                                                        <color key="value" red="0.1333333333" green="0.74509803919999995" blue="0.94509803920000002" alpha="1" colorSpace="calibratedRGB"/>
+                                                                                        <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                                     </userDefinedRuntimeAttribute>
                                                                                     <userDefinedRuntimeAttribute type="boolean" keyPath="allCorners" value="YES"/>
                                                                                 </userDefinedRuntimeAttributes>
@@ -162,6 +163,7 @@
                                                                                             <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
                                                                                                 <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                                             </userDefinedRuntimeAttribute>
+                                                                                            <userDefinedRuntimeAttribute type="boolean" keyPath="isBorder" value="NO"/>
                                                                                         </userDefinedRuntimeAttributes>
                                                                                     </textField>
                                                                                 </subviews>
@@ -169,7 +171,7 @@
                                                                                 <edgeInsets key="layoutMargins" top="8" left="12" bottom="8" right="0.0"/>
                                                                                 <userDefinedRuntimeAttributes>
                                                                                     <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
-                                                                                        <color key="value" red="0.1333333333" green="0.74509803919999995" blue="0.94509803920000002" alpha="1" colorSpace="calibratedRGB"/>
+                                                                                        <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                                     </userDefinedRuntimeAttribute>
                                                                                     <userDefinedRuntimeAttribute type="boolean" keyPath="allCorners" value="YES"/>
                                                                                 </userDefinedRuntimeAttributes>
