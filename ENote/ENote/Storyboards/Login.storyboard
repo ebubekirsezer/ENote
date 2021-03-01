@@ -30,7 +30,7 @@
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="682"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="e9o-W3-4rw" userLabel="Container">
-                                                <rect key="frame" x="0.0" y="0.0" width="414" height="5080"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="5150"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="2Q3-XW-D7w" userLabel="Login&amp;SignUp Buttons">
                                                         <rect key="frame" x="16" y="57" width="382" height="50"/>
@@ -69,10 +69,10 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </stackView>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="miI-oi-x5R" userLabel="Login">
-                                                        <rect key="frame" x="0.0" y="138.99999999999997" width="414" height="276.33333333333326"/>
+                                                        <rect key="frame" x="0.0" y="138.99999999999997" width="414" height="346.33333333333326"/>
                                                         <subviews>
                                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="aDt-xk-aC0">
-                                                                <rect key="frame" x="16" y="16.000000000000014" width="382" height="244.33333333333337"/>
+                                                                <rect key="frame" x="16" y="16" width="382" height="314.33333333333331"/>
                                                                 <subviews>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xGS-Ti-Y8M" userLabel="Email">
                                                                         <rect key="frame" x="0.0" y="0.0" width="382" height="128"/>
@@ -182,6 +182,20 @@
                                                                             <constraint firstItem="Abb-zK-6Ed" firstAttribute="top" secondItem="iih-QA-Wjp" secondAttribute="top" id="yIs-0k-zBY"/>
                                                                         </constraints>
                                                                     </view>
+                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3mQ-Hz-ezD">
+                                                                        <rect key="frame" x="0.0" y="264.33333333333348" width="382" height="50"/>
+                                                                        <color key="backgroundColor" red="0.1333333333" green="0.74509803919999995" blue="0.94509803920000002" alpha="1" colorSpace="calibratedRGB"/>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="height" constant="50" id="PrC-Ve-aC2"/>
+                                                                        </constraints>
+                                                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                                        <state key="normal" title="Login">
+                                                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                        </state>
+                                                                        <userDefinedRuntimeAttributes>
+                                                                            <userDefinedRuntimeAttribute type="boolean" keyPath="allCorners" value="YES"/>
+                                                                        </userDefinedRuntimeAttributes>
+                                                                    </button>
                                                                 </subviews>
                                                             </stackView>
                                                         </subviews>
