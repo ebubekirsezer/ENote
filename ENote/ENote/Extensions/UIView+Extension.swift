@@ -9,6 +9,16 @@ import Foundation
 import UIKit
 
 extension UIView {
+
+    @IBInspectable var borderColor: UIColor {
+        get {
+            return self.borderColor
+        }
+        set {
+            self.layer.borderWidth = 2
+            self.layer.borderColor = newValue.cgColor
+        }
+    }
     
     @IBInspectable var topCorners: Bool {
         get {
