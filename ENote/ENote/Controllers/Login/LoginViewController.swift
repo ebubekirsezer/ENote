@@ -14,6 +14,8 @@ class LoginViewController: UIViewController {
     @IBOutlet weak var loginEmailIcon: UIImageView?
     @IBOutlet weak var loginPasswordTextField: UITextField?
     @IBOutlet weak var loginPasswordIcon: UIImageView?
+    @IBOutlet weak var loginEmailStackView: UIStackView?
+    @IBOutlet weak var loginPasswordStackView: UIStackView?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,9 +29,17 @@ class LoginViewController: UIViewController {
     
     @objc private func textFieldDidChange(_ textField: UITextField){
         if textField == loginEmailTextField {
-            print("email")
+            if textField.text?.count == 0 {
+                loginEmailStackView?.changeStackDefaultAppearenceWith(image: loginEmailIcon)
+            } else {
+                loginEmailStackView?.changeStackCustomAppearenceWith(image: loginEmailIcon)
+            }
         } else if textField == loginPasswordTextField {
-            print("password")
+            if textField.text?.count == 0 {
+                loginPasswordStackView?.changeStackDefaultAppearenceWith(image: loginPasswordIcon)
+            } else {
+                loginPasswordStackView?.changeStackCustomAppearenceWith(image: loginPasswordIcon)
+            }
         }
     }
 }

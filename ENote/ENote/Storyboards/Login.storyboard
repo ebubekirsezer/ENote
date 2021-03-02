@@ -289,8 +289,10 @@
                     </view>
                     <connections>
                         <outlet property="loginEmailIcon" destination="igl-O7-TfW" id="fcA-EW-jYG"/>
+                        <outlet property="loginEmailStackView" destination="TJV-1D-aZ5" id="uj1-Nh-ow3"/>
                         <outlet property="loginEmailTextField" destination="t2i-LQ-Kdm" id="9wa-So-l9g"/>
                         <outlet property="loginPasswordIcon" destination="lEc-KI-4GF" id="WFB-F1-g6d"/>
+                        <outlet property="loginPasswordStackView" destination="uYX-gA-3fr" id="jmf-9R-jM8"/>
                         <outlet property="loginPasswordTextField" destination="Efb-dP-hqW" id="FXV-Ma-BcR"/>
                     </connections>
                 </viewController>

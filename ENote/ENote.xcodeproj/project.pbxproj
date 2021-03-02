@@ -16,6 +16,7 @@
 		B852B1A925EBDF800019159F /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B852B1A825EBDF800019159F /* Login.storyboard */; };
 		B852B1AD25EBE19F0019159F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B852B1AC25EBE19F0019159F /* LoginViewController.swift */; };
 		B852B1B325EBE5DE0019159F /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B852B1B225EBE5DE0019159F /* UIView+Extension.swift */; };
+		B86C7AB925EEBB85004038C0 /* UIView+Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86C7AB825EEBB85004038C0 /* UIView+Appearance.swift */; };
 		B8C5FC8F25ED864F00CB934C /* BaseColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C5FC8E25ED864F00CB934C /* BaseColor.swift */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +32,7 @@
 		B852B1A825EBDF800019159F /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		B852B1AC25EBE19F0019159F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		B852B1B225EBE5DE0019159F /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		B86C7AB825EEBB85004038C0 /* UIView+Appearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Appearance.swift"; sourceTree = "<group>"; };
 		B8C5FC8E25ED864F00CB934C /* BaseColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -106,6 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				B852B1B225EBE5DE0019159F /* UIView+Extension.swift */,
+				B86C7AB825EEBB85004038C0 /* UIView+Appearance.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -203,6 +206,7 @@
 				B833E6C325D70F1400A26D0A /* ViewController.swift in Sources */,
 				B833E6BF25D70F1400A26D0A /* AppDelegate.swift in Sources */,
 				B852B1B325EBE5DE0019159F /* UIView+Extension.swift in Sources */,
+				B86C7AB925EEBB85004038C0 /* UIView+Appearance.swift in Sources */,
 				B833E6C125D70F1400A26D0A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
