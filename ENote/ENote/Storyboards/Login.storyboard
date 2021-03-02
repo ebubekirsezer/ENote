@@ -48,6 +48,9 @@
                                                                 <userDefinedRuntimeAttributes>
                                                                     <userDefinedRuntimeAttribute type="boolean" keyPath="allCorners" value="YES"/>
                                                                 </userDefinedRuntimeAttributes>
+                                                                <connections>
+                                                                    <action selector="loginTabButtonPressed:" destination="eui-nb-kuf" eventType="touchUpInside" id="NmA-sC-idZ"/>
+                                                                </connections>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9FC-po-tSc">
                                                                 <rect key="frame" x="191" y="0.0" width="191" height="50"/>
@@ -61,6 +64,9 @@
                                                                 <userDefinedRuntimeAttributes>
                                                                     <userDefinedRuntimeAttribute type="boolean" keyPath="allCorners" value="YES"/>
                                                                 </userDefinedRuntimeAttributes>
+                                                                <connections>
+                                                                    <action selector="signupTabButtonPressed:" destination="eui-nb-kuf" eventType="touchUpInside" id="VQc-B9-WWC"/>
+                                                                </connections>
                                                             </button>
                                                         </subviews>
                                                         <color key="backgroundColor" red="0.8784313725490196" green="0.94901960784313721" blue="0.97647058823529409" alpha="1" colorSpace="calibratedRGB"/>
@@ -288,12 +294,15 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="loginButton" destination="sfx-6H-jL4" id="GjZ-rH-KtV"/>
                         <outlet property="loginEmailIcon" destination="igl-O7-TfW" id="fcA-EW-jYG"/>
                         <outlet property="loginEmailStackView" destination="TJV-1D-aZ5" id="uj1-Nh-ow3"/>
                         <outlet property="loginEmailTextField" destination="t2i-LQ-Kdm" id="9wa-So-l9g"/>
                         <outlet property="loginPasswordIcon" destination="lEc-KI-4GF" id="WFB-F1-g6d"/>
                         <outlet property="loginPasswordStackView" destination="uYX-gA-3fr" id="jmf-9R-jM8"/>
                         <outlet property="loginPasswordTextField" destination="Efb-dP-hqW" id="FXV-Ma-BcR"/>
+                        <outlet property="loginView" destination="miI-oi-x5R" id="CDR-8s-XFq"/>
+                        <outlet property="signupButton" destination="9FC-po-tSc" id="yek-HI-Swp"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dDV-GG-wqP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
