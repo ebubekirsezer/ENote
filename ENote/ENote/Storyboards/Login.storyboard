@@ -287,6 +287,12 @@
                             <constraint firstItem="vLe-Vg-Lo6" firstAttribute="trailing" secondItem="TcK-Rl-Egb" secondAttribute="trailing" id="yGt-cu-ivg"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="loginEmailIcon" destination="igl-O7-TfW" id="fcA-EW-jYG"/>
+                        <outlet property="loginEmailTextField" destination="t2i-LQ-Kdm" id="9wa-So-l9g"/>
+                        <outlet property="loginPasswordIcon" destination="lEc-KI-4GF" id="WFB-F1-g6d"/>
+                        <outlet property="loginPasswordTextField" destination="Efb-dP-hqW" id="FXV-Ma-BcR"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dDV-GG-wqP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
